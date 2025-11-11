@@ -1,0 +1,91 @@
+/* Reset & basic layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    background: #fff;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+  }
+  
+  header .title {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  header .contact {
+    font-size: 0.95em;
+    color: #666;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    border-bottom: 2px solid #0078d7;
+    padding-bottom: 5px;
+    color: #0078d7;
+    margin-bottom: 10px;
+  }
+  
+  /* Skills */
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    background: #eef6ff;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
+  
+  /* Experience */
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .job .date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .job ul {
+    margin: 5px 0 0 20px;
+  }
+  
+  /* Education */
+  .education p {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  
