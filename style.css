@@ -89,3 +89,13 @@ body {
     font-size: 1em;
   }
   
+  .subscribe-button {
+    color: white;
+    background-color: #488fca;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
